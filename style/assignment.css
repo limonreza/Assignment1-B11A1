@@ -23,14 +23,56 @@ nav ul li{
     list-style: none;
 }
 
-.stroke{
-    color: #006A50;
-}
-.btn-primary{
+
+.btn-1{
     font-weight: 600;
     font-size: 18px;
     padding: 15px 30px;
     border-radius: 8px;
+    color: #006A50;
     border-color: #006A50;
     background-color: white;
+}
+
+.btn-2{
+    font-weight: 600;
+    font-size: 18px;
+    color: white;
+    background-color: #006A50;
+    padding: 17px 34px;
+    border-radius: 8px;
+    border: none;
+}
+
+/* banner style */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    width: 1280px;
+    background-color: #C6E4D6;
+    padding: 120px 160px;
+    border-radius: 24px;
+    border: none;
+    margin: 20px 160px 80px 160px;
+    
+}
+
+.banner-content{
+    width: 622px;
+}
+
+.banner-sub-title{
+    font-size: 24px;
+    font-weight: bold;
+    color: #474747;
+    margin-bottom: 0px;
+}
+
+.banner-title{
+    font-size: 56px;
+    font-weight: bold;
+}
+
+.banner-pic{
+    width: 475px;
 }
